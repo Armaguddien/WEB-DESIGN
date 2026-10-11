@@ -1,10 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeri Komputer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        /* Pembungkus Utama */
+        .wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            border: 0px solid #333;
+            background-color: #fafafa;
+            padding: 20px;
+        }
+
+        /* Header / Banner Gambar */
+        .banner {
+            width: 100%;
+            height: 400px;
+            border: 0px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #555;
+            background-color: #eaeaea;
+            margin-bottom: 15px;
+        }
+
+        /* Menu Navigasi */
+        nav {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            padding: 8px 16px;
+            border: 1px solid #cccccc;
+            text-decoration: none;
+            color: #000;
+            background-color: #f0f0f0;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Area Konten Utama */
+        .content-box {
+            border: 1px solid #d3d3d3;
+            padding: 20px;
+        }
+
+        /* Baris Pertama Konten (Kotak, Garis Teks, Kotak) */
+        .row-top {
+            display: FLEX;
+            flex-direction: row;
+            gap: 20px;
+            align-items: FLEX-START;
+            margin-bottom: 20px;
+        }
+
+        /* Baris Kedua Konten (Kotak Besar, Kotak Sedang, Garis Teks) */
+        .row-bottom {
+            display: grid;
+            grid-template-columns: 300px 300px 1fr;
+            gap: 20px;
+            align-items: flex-start;
+            margin-top: 30px;
+        }
+
+        /* Element Gambar / Kotak */
+        .box {
+            border: 0px solid #333;
+            background-color: #fafafa;
+        }
+
+        .box-square {
+            height: 300px;
+            width: 1500px;
+        }
+
+        .box-large {
+            height: 500px;
+        }
+
+        .box-medium {
+            height: 300px;
+        }
+
+        /* Teks Simulasi (Garis-garis) */
+        .text-lines {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .line {
+            height: 8px;
+            background-color: #666;
+            border-radius: 4px;
+        }
+
+        .line.short {
+            width: 70%;
+        }
+    </style>
 </head>
-<body bgcolor="cyan" background="E:\MINE\COLLAGE\WEB-DESIGN\amogus.gif">
+<body>
+
+    <div class="wrapper">
+        <!-- Banner Gambar Atas -->
+        <div class="banner">
+            <img src="Img/tes banner1.jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+        </div>
+
+        <!-- Menu Navigasi -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="Produk.html">Produk</a>
+            <a href="Galeri.html">Galeri</a>
+            <a href="https://www.tokopedia.com/search?navsource=home&q=loq+15+iax9+rtx+3050&source=universe&st=product" target="_blank">Keranjang</a>
+            <a href="Hub Kami.html">Hub Kami</a>
+        </nav>
+
+        <!-- Kotak Konten Utama -->
+        <div class="content-box">
+            
+            <!-- Baris Atas -->
+             <h2 style="margin-bottom: 20px;">Selamat Datang di Galeri Komputer</h2>
+            <div class="row-top">
+                <div class="box box-square">
+                    <img src="Img/PC1 (1).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="text-lines">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat neque quod possimus error molestias animi autem! Quasi quibusdam nam illo libero accusantium error ut ipsa velit ab hic ducimus quas dolores natus eos, nisi tempore eum est. Veniam eveniet sint reprehenderit officia maxime, consectetur voluptatum soluta iusto modi in quasi debitis vero vel perspiciatis molestias. Unde autem delectus beatae animi? Saepe non maiores provident animi eveniet nemo incidunt minus consectetur aliquid doloremque laborum sapiente perspiciatis voluptas, repudiandae iusto iste enim a soluta dolorem ducimus repellat, repellendus nostrum optio commodi. Quas dolor iste ab dolore, reiciendis aliquam eaque. Minima, nihil.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maiores iste ullam, eum eos eveniet nemo repellendus. Voluptas, obcaecati. Nemo recusandae odio et deserunt ex. Ex provident quos possimus corrupti nemo alias repudiandae, corporis, dolorem debitis sapiente esse consectetur laudantium maxime animi inventore praesentium facilis, voluptates excepturi natus porro sint nobis? Iusto, possimus sit ipsa fugiat modi, praesentium quasi porro esse veritatis totam repellendus cum. Earum accusamus possimus nobis quas minima consequuntur nisi quibusdam ducimus perferendis fugit nostrum sunt facilis voluptatibus doloremque pariatur quisquam et dicta laborum vero labore, eaque officia? Mollitia nemo qui dolore animi delectus culpa nobis alias?<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ipsum ab consequatur laboriosam sunt fugiat nesciunt magni dignissimos placeat suscipit, animi molestias mollitia non hic asperiores excepturi enim deserunt veritatis voluptates, quod aliquid ut beatae. Possimus quas dicta ut, labore dolorum id optio beatae. Delectus quos neque ducimus quo, iusto nesciunt eveniet nostrum vitae quisquam rem, assumenda voluptatum vel. Eum aspernatur culpa sapiente, nobis repellat explicabo ut. Itaque, eaque! Quasi repellendus qui expedita aspernatur impedit iusto maiores, accusantium minima, porro, voluptatem sint. Architecto eaque totam debitis doloremque possimus facilis atque nisi nostrum, voluptatem perspiciatis earum corrupti. Sint temporibus ducimus totam!</p>
+                </div>
+            </div>
+
+            <!-- Baris Bawah -->
+             <h2 style="margin-top: 50px;">Produk Komputer Terbaru</h2>
+            <div class="row-bottom">
+                <div class="box box-large">
+                    <img src="Img/PC1 (2).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="box box-medium">
+                    <img src="Img/PC1 (3).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="text-lines">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat neque quod possimus error molestias animi autem! Quasi quibusdam nam illo libero accusantium error ut ipsa velit ab hic ducimus quas dolores natus eos, nisi tempore eum est. Veniam eveniet sint reprehenderit officia maxime, consectetur voluptatum soluta iusto modi in quasi debitis vero vel perspiciatis molestias. Unde autem delectus beatae animi? Saepe non maiores provident animi eveniet nemo incidunt minus consectetur aliquid doloremque laborum sapiente perspiciatis voluptas, repudiandae iusto iste enim a soluta dolorem ducimus repellat, repellendus nostrum optio commodi. Quas dolor iste ab dolore, reiciendis aliquam eaque. Minima, nihil.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maiores iste ullam, eum eos eveniet nemo repellendus. Voluptas, obcaecati. Nemo recusandae odio et deserunt ex. Ex provident quos possimus corrupti nemo alias repudiandae, corporis, dolorem debitis sapiente esse consectetur laudantium maxime animi inventore praesentium facilis, voluptates excepturi natus porro sint nobis? Iusto, possimus sit ipsa fugiat modi, praesentium quasi porro esse veritatis totam repellendus cum. Earum accusamus possimus nobis quas minima consequuntur nisi quibusdam ducimus perferendis fugit nostrum sunt facilis voluptatibus doloremque pariatur quisquam et dicta laborum vero labore, eaque officia? Mollitia nemo qui dolore animi delectus culpa nobis alias?<br><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ipsum ab consequatur laboriosam sunt fugiat nesciunt magni dignissimos placeat suscipit, animi molestias mollitia non hic asperiores excepturi enim deserunt veritatis voluptates, quod aliquid ut beatae. Possimus quas dicta ut, labore dolorum id optio beatae. Delectus quos neque ducimus quo, iusto nesciunt eveniet nostrum vitae quisquam rem, assumenda voluptatum vel. Eum aspernatur culpa sapiente, nobis repellat explicabo ut. Itaque, eaque! Quasi repellendus qui expedita aspernatur impedit iusto maiores, accusantium minima, porro, voluptatem sint. Architecto eaque totam debitis doloremque possimus facilis atque nisi nostrum, voluptatem perspiciatis earum corrupti. Sint temporibus ducimus totam!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
 </body>
 </html>

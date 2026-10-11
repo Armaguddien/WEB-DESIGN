@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Komputer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        /* Pembungkus Utama */
+        .wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+            border: 0px solid #333;
+            background-color: #fafafa;
+            padding: 20px;
+        }
+
+        /* Header / Banner Gambar */
+        .banner {
+            width: 100%;
+            height: 400px;
+            border: 0px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #555;
+            background-color: #eaeaea;
+            margin-bottom: 15px;
+        }
+
+        /* Menu Navigasi */
+        nav {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 15px;
+        }
+
+        nav a {
+            padding: 8px 16px;
+            border: 1px solid #cccccc;
+            text-decoration: none;
+            color: #000;
+            background-color: #f0f0f0;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        /* Area Konten Utama */
+        .content-box {
+            border: 1px solid #d3d3d3;
+            padding: 20px;
+        }
+
+        /* Baris Pertama Konten (Kotak, Garis Teks, Kotak) */
+        .row-top {
+            display: FLEX;
+            flex-direction: row;
+            gap: 20px;
+            align-items: FLEX-START;
+            margin-bottom: 20px;
+        }
+
+        /* Baris Kedua Konten (Kotak Besar, Kotak Sedang, Garis Teks) */
+        .row-bottom {
+            display: grid;
+            grid-template-columns: 300px 300px 1fr;
+            gap: 20px;
+            align-items: flex-start;
+            margin-top: 30px;
+        }
+
+        /* Element Gambar / Kotak */
+        .box {
+            border: 0px solid #333;
+            background-color: #fafafa;
+        }
+
+        .box-square {
+            height: 400px;
+            width: 500px;
+        }
+
+        .box-large {
+            height: 500px;
+        }
+
+        .box-medium {
+            height: 300px;
+        }
+
+        /* Teks Simulasi (Garis-garis) */
+        .text-lines {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .line {
+            height: 8px;
+            background-color: #666;
+            border-radius: 4px;
+        }
+
+        .line.short {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Banner Gambar Atas -->
+        <div class="banner">
+            <img src="Img/tes banner1.jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+        </div>
+
+        <!-- Menu Navigasi -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="Produk.html">Produk</a>
+            <a href="Galeri.html">Galeri</a>
+            <a href="https://www.tokopedia.com/search?navsource=home&q=loq+15+iax9+rtx+3050&source=universe&st=product" target="_blank">Keranjang</a>
+            <a href="Hub Kami.html">Hub Kami</a>
+        </nav>
+
+        <!-- Kotak Konten Utama -->
+        <div class="content-box">
+            
+            <!-- Baris Atas -->
+             <h2 style="margin-bottom: 20px;">Rakitan Kami</h2>
+            <div class="row-top">
+                <div class="box box-square">
+                    <img src="Img/PC1 (1).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="box box-square">
+                    <img src="Img/PC1 (4).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="text-lines">
+                    
+                </div>
+            </div>
+
+            <!-- Baris Bawah -->
+            <div class="row-bottom">
+                <div class="box box-large">
+                    <img src="Img/PC1 (2).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="box box-medium">
+                    <img src="Img/PC1 (3).jpg" alt="SEDANG DIBUAT" style="width: 100%; height: 100%;object-fit: cover;">
+                </div>
+                <div class="text-lines">
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
